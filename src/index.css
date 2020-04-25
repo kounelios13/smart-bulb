@@ -1,0 +1,30 @@
+/*body {*/
+/*  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;*/
+/*  margin: auto;*/
+/*  max-width: 38rem;*/
+/*  background: rgba(240,90,0,.8);*/
+/*  padding: 2rem;*/
+/*}*/
+body{
+  margin:0;
+  passing:0;
+}
+video{
+  width: 400px;
+  height: 400px;
+}
+
+#br-label{
+  font-size: 20px;
+  color: black;
+}
+
+h4{
+  text-align: center;
+
+}
+
+img,.scent-btn{
+  display: block;
+  margin: auto;
+}

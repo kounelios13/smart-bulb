@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Bulb</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="row center">
+        <div class="col s4">
+            <h4>Sunrise</h4>
+            <img src="../assets/sunrise2.png" alt="">
+            <a class="waves-effect waves-light btn scene-btn" data-scene="Sunrise">Activate scene</a>
+        </div>
+        <div class="col s4">
+            <h4>Sunset</h4>
+            <img src="../assets/sunset.png" alt="">
+            <a class="waves-effect waves-light btn scene-btn" data-scene="Sunset">Activate scene</a>
+        </div>
+        <div class="col s4">
+            <h4>Sleep</h4>
+            <img src="../assets/sleeping.png" alt="">
+            <a class="waves-effect waves-light btn scene-btn" data-scene="Sleep">Activate scene</a>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="row center">
+<!--        <div class="col s4">-->
+<!--            <h4>Sunrise2</h4>-->
+<!--            <img src="../assets/sunrise.png" alt="">-->
+<!--            <a class="waves-effect waves-light btn scene-btn" data-scene="Dim">Activate scene</a>-->
+<!--        </div>-->
+        <div class="col s6">
+            <h4>Rainbow</h4>
+            <img src="../assets/rainbow.png" alt="">
+            <a class="waves-effect waves-light btn scene-btn" data-scene="Rainbow">Activate scene</a>
+        </div>
+        <div class="col s6">
+            <h4>Disco</h4>
+            <img src="../assets/party.png" alt="">
+            <a class="waves-effect waves-light btn scene-btn" data-scene="Disco">Activate scene</a>
+        </div>
+    </div>
+    <h3>Brightness</h3>
+    <input type="range" id="brightness" min="0" max="100" step="1" value="0">
+    <label id="br-label">0</label>
+</div>
+<div class="row center">
+    <div class="col-s12">
+        <a class="waves-effect waves-light btn" id="shit">Toggle bulb</a>
+    </div>
+</div>
+<script src="../assets/mbox-1.0.0.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
